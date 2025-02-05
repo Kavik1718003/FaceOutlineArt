@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('f3fc122d037a23dac727b3ec5a556c8d.jpg') no-repeat center center fixed;
+    background-size: center; /* Ensure the background image covers the screen */
+}
+
+header {
+    width: 100%;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.7); 
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+h1 {
+    color: white;
+    font-size: 2rem;
+}
+
+.navbar {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+.navbar a:hover {
+    background: white;
+    color: black;
+    border-radius: 5px;
+}
+
+#Heading1, #Heading2, #Heading3, #Heading4, #Heading5, #Heading6, #Heading7, #Heading7 {
+    margin: 50px;
+    font-size: 5rem;
+    border-bottom: 2px solid black;
+    display: block;
+    padding-bottom: 5px; 
+    width: fit-content; 
+}
+
+#para1 {
+    font-size: 1rem;
+    position: fixed;
+    bottom: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+#about-container, #service-container, #contact-container, #thank-you-container, #login-container {
+    font-size: 1rem;
+    width: 80%;
+    margin-left: 100px;
+}
+
+.login-table {
+    border: 2px solid #ccc; /* Added border style */
+    border-spacing: 5px; /* Space between cells */
+	background: rgba(0, 0, 0, 0.7); 
+	width: 50%;
+    margin-top: 20px;
+	color: white;
+    font-size: 1rem;
+    
+    
+}
+
+.signup-table{
+	border: 2px solid #ccc; /* Added border style */
+    border-spacing: 5px; /* Space between cells */
+	background: rgba(0, 0, 0, 0.7); 
+	width: 50%;
+    margin-top: 20px;
+	color: white;
+    font-size: 1rem;
+	
+}
