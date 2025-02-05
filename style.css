@@ -6,7 +6,7 @@
 
 body {
     background: url('f3fc122d037a23dac727b3ec5a556c8d.jpg') no-repeat center center fixed;
-    background-size: center; /* Ensure the background image covers the screen */
+    background-size: center; 
 }
 
 header {
@@ -69,8 +69,8 @@ h1 {
 }
 
 .login-table {
-    border: 2px solid #ccc; /* Added border style */
-    border-spacing: 5px; /* Space between cells */
+    border: 2px solid #ccc; 
+    border-spacing: 5px; 
 	background: rgba(0, 0, 0, 0.7); 
 	width: 50%;
     margin-top: 20px;
@@ -81,8 +81,8 @@ h1 {
 }
 
 .signup-table{
-	border: 2px solid #ccc; /* Added border style */
-    border-spacing: 5px; /* Space between cells */
+	border: 2px solid #ccc; 
+    border-spacing: 5px; 
 	background: rgba(0, 0, 0, 0.7); 
 	width: 50%;
     margin-top: 20px;
