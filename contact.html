@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="nav-container">
+        <h1>HABI🫧</h1>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="service.html">Service</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </div>
+</header>
+
+<section id="contact">
+    <center>
+        <h2 id="Heading4">Contact Us</h2>
+    </center>
+
+    <main>
+        <div id="contact-container">
+            <h1>Get in Touch</h1>
+            <p>We'd love to hear from you! Whether you have a question, want to order custom artwork, or need more information, feel free to reach out.</p>
+            <br><br>
+
+            
+            <form id="contact-form" method="POST">
+    <table>
+        <tr>
+            <td><label for="name">Full Name</label></td>
+            <td><input type="text" id="name" name="name" required placeholder="Enter your full name"></td>
+        </tr>
+        <tr>
+            <td><label for="email">Email Address</label></td>
+            <td><input type="email" id="email" name="email" required placeholder="Enter your email"></td>
+        </tr>
+        <tr>
+            <td><label for="message">Your Message</label></td>
+            <td><textarea id="message" name="message" rows="5" required placeholder="Write your message here"></textarea></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align:center;">
+                <button type="submit" class="cta-button">Submit</button>
+            </td>
+        </tr>
+    </table>
+</form>
+
+            <br><hr><br>
+
+           
+            <div class="alt-contact">
+                <h3>Or Reach Us Through:</h3>
+                <br>
+                <ul>
+                    <li>Email: <a href="mailto:habi@website.com">habi@website.com</a></li>
+                    <br>
+                    <li>Phone: <a href="tel:+19876543210">9876543210</a></li>
+                    <br>
+                    <li>Follow us on Social Media:
+                        <ul>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Facebook</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+</section>
+
+<!-- JavaScript to handle form submission and redirect -->
+<script>
+    // When the form is submitted, prevent the default action and redirect to the Thank You page
+    document.getElementById("contact-form").addEventListener("submit", function(event){
+        event.preventDefault(); // Prevents the form from submitting traditionally
+
+        // Here you can handle the form data (send it to a server, for example)
+        // For now, we will just redirect
+
+        // Redirect to the "Thank You" page
+        window.location.href = "conthank.html";
+    });
+</script>
+
+</body>
+
+</html>
