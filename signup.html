@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="nav-container">
+            <h1>HABI🫧</h1>
+            <nav class="navbar">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="service.html">Service</a>
+                <a href="contact.html">Contact</a>
+                <a href="login.html">Login</a>
+                <a href="signup.html">Signup</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="signup">
+        <center>
+            <h2 id="Heading4">Signup</h2>
+			<br><br><br>
+        
+
+        <main>
+            <div id="signup-container">
+                <h2>Create Your Account</h2>
+                <p>Fill in the details to sign up.</p>
+				<br><br>
+
+                <!-- Signup Table Form -->
+                <form id="signup-form" method="POST" action="signup-handler.php">
+                    <table class="signup-table">
+                        <tr>
+                            <td><label for="name">Full Name</label></td>
+                            <td><input type="text" id="name" name="name" required placeholder="Enter your full name"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">Email Address</label></td>
+                            <td><input type="email" id="email" name="email" required placeholder="Enter your email"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="username">Username</label></td>
+                            <td><input type="text" id="username" name="username" required placeholder="Create a username"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="password">Password</label></td>
+                            <td><input type="password" id="password" name="password" required placeholder="Create a password"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="confirm-password">Confirm Password</label></td>
+                            <td><input type="password" id="confirm-password" name="confirm-password" required placeholder="Confirm your password"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="text-align: center;">
+                                <button type="submit" class="cta-button">Signup</button>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+				<br><br>
+
+                <div id="login-link">
+                    <p>Already have an account? <a href="login.html">Login here</a></p>
+                </div>
+            </div>
+        </main>
+    </section>
+</center>
+
+</body>
+
+</html>
+
